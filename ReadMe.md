@@ -2,7 +2,7 @@
 El objetivo es aprender como comparar la igualdad de objetos.
 
 ## Informacion
-###Hay tres tipos de igualdad de objetos:###
+### Hay tres tipos de igualdad de objetos:
 **Igualdad por referencia:** significa que dos variables del mismo tipo son iguales porque tienen la misma referencia en memoria. Ej. cuando asignamos una Entity a otra, cualquier valor que modifiquemoa se vera afectada en las dos.
 
 **Igualdad por identificador:** significa que dos variables del mismo tipo, que no tienen la misma referencia en memoria, son iguales porque tienen la misma identificacion. Ej. cuando un objeto tiene su key que coincide con la de la base de datos.
