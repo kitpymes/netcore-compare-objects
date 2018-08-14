@@ -16,8 +16,6 @@ namespace CompareObjects.Caso2
 
         #region Equals
 
-        protected virtual object Actual => this;
-
         public override bool Equals(object obj)
         {
             var other = obj as User;
@@ -25,7 +23,7 @@ namespace CompareObjects.Caso2
             if (other is null)
                 return false;
 
-            if (Actual.GetType() != other.Actual.GetType())
+            if (this.GetType() != other.GetType())
                 return false;
 
             // Verificamos la igualdad de valores.
@@ -50,7 +48,7 @@ namespace CompareObjects.Caso2
 
         public override int GetHashCode()
         {
-            return (Actual.GetType().ToString() + Guid.NewGuid()).GetHashCode();
+            return (this.GetType().ToString() + Name + Surname).GetHashCode();
         }
 
         #endregion Equals
