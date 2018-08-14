@@ -12,9 +12,9 @@ namespace CompareObjects.Caso1
             Console.WriteLine("\n------------------Caso1 => Comparar la igualdad de objetos por referencia.-------------------");
 
             User a = new User("Juan");
-            User b = new User("Juan");
+            User b = new User("Pedro");
 
-            Console.WriteLine("\n- Valores iniciales:\nUser a = new User('Juan');\nUser b = new User('Juan');\n");
+            Console.WriteLine("\n- Valores iniciales:\nUser a = new User('Juan');\nUser b = new User('Pedro');\n");
             CompareObjectsHelper<User>.ReferenceEquals(a, b);
 
             // Asignamos
