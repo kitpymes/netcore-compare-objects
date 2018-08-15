@@ -1,13 +1,14 @@
 ﻿namespace CompareObjects.Caso1
 {
-    public class User : IEntityBase
+    public class User
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
-
-        public User(string name)
+        public User(string name, string surname)
         {
             Name = name;
+            Surname = surname;
         }
+
+        public string Name { get; set; }
+        public string Surname { get; set; }
     }
 }

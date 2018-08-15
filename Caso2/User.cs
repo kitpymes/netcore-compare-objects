@@ -1,10 +1,7 @@
-﻿using System;
-
-namespace CompareObjects.Caso2
+﻿namespace CompareObjects.Caso2
 {
-    public class User : IEntityBase
+    public class User
     {
-        public string Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
 

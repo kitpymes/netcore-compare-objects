@@ -1,6 +1,6 @@
 ﻿namespace CompareObjects.Caso3
 {
-    public abstract class EntityBase : IEntityBase
+    public abstract class EntityBase
     {
         public string Id { get; set; }
 
