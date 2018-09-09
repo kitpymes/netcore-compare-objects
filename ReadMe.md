@@ -37,6 +37,8 @@ Compararlos por sus identificaciones, en este caso vamos a crear una clase base 
 ![Screenshot](Screenshots/identifier.png)
 
 ## Testeado
-**Visual Studio 2017**
-**.Net Core 2.x**
-**C# 7.x**
+- Visual Studio 2017
+
+- .Net Core 2.x
+
+- C# 7.x
