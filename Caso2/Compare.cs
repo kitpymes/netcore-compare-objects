@@ -16,18 +16,13 @@ namespace CompareObjects.Caso2
             Caso2.User b = new Caso2.User("Pedro", "Perez");
 
             Console.WriteLine("\n- Valores iniciales:\nUser a = new User('Juan', 'Perez');\nUser b = new User('Pedro', 'Perez');\n");
-            CompareValuesEquals(a, b);
+            Console.WriteLine($"a = b por VALOR ?: {a.Equals(b)}");
 
             // Asignamos
             b.Name = "Juan";
 
             Console.WriteLine("\n- Asignamos:\nb.Name = 'Juan';\n");
-            CompareValuesEquals(a, b);
-        }
-
-        public static void CompareValuesEquals(Caso2.User a, Caso2.User b)
-        {
-            Console.WriteLine($"- Son iguales por VALOR ?: {a.Equals(b)}");
+            Console.WriteLine($"a = b por VALOR ?: {a.Equals(b)}");
         }
     }
 }

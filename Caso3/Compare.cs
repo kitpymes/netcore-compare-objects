@@ -27,7 +27,7 @@ namespace CompareObjects.Caso3
 
         public static void CompareIdentifierEquals(Caso3.User a, Caso3.User b)
         {
-            Console.WriteLine("- Son iguales por IDENTIFICACION ?:");
+            Console.WriteLine($"a = b por IDENTIFICACION ? ");
             Console.WriteLine($"a.Id.Equals(b.Id): {a.Id.Equals(b.Id)}");
             Console.WriteLine($"(a.Id == b.Id): {a.Id == b.Id}");
         }

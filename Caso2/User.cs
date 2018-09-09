@@ -1,14 +1,9 @@
 ﻿namespace CompareObjects.Caso2
 {
-    public class User
+    public class User : Caso1.User
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-
-        public User(string name, string surname)
+        public User(string name, string surname) : base(name, surname)
         {
-            Name = name;
-            Surname = surname;
         }
 
         #region Equals

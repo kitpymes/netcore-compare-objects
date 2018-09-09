@@ -35,3 +35,8 @@ Comparar la igualdad de objetos por identificacion.
 Compararlos por sus identificaciones, en este caso vamos a crear una clase base para evitar duplicar codigo en cada objeto.
 ### Resultado
 ![Screenshot](Screenshots/identifier.png)
+
+## Testeado
+Visual Studio 2017
+.Net Core 2.x
+C# 7.x
